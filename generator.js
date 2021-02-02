@@ -11,6 +11,6 @@ let generator = {
     generateRandomMessage() {
         return `The ${this.selectRandomWord(this.noun1)} ${this.selectRandomWord(this.verb)} while the ${this.selectRandomWord(this.noun2)} ${this.selectRandomWord(this.verb)}!`;
     }
-}
+};
 
 console.log(generator.generateRandomMessage());
